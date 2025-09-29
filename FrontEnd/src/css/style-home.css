@@ -1,0 +1,40 @@
+body {
+    background: url('../images/3639829.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive;
+}
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #e68900;
+}
+
+button a {
+    text-decoration: none;
+    color: white; /* Ensures the link text stays white */
+}
+
+h2{
+    
+    
+    color: #ff9800;
+    border: none;
+    cursor: pointer;
+}

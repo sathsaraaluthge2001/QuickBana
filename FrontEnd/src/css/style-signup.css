@@ -1,0 +1,33 @@
+body {
+    background: url('../images/3639829.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive;
+}
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.container button {
+    width: 100%;  /* Ensures the button takes full width of its container */
+    max-width: 300px; /* Adjust as needed */
+    background: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+button:hover {
+    background: #ff5722;
+}
+
